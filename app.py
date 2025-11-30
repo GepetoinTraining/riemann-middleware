@@ -1,6 +1,6 @@
 # app.py
 import matplotlib
-matplotlib.use('Agg') # <--- ADD THIS LINE TO PREVENT SERVER CRASHES
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import gradio as gr
 import sys

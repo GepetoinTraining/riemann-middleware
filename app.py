@@ -1,8 +1,10 @@
 # app.py
+import matplotlib
+matplotlib.use('Agg') # <--- ADD THIS LINE TO PREVENT SERVER CRASHES
+import matplotlib.pyplot as plt
 import gradio as gr
 import sys
 import io
-# FIX: Import from the src package
 from src.WorldGen import WorldAlchemist, WorldConfig
 
 # --- THE GRADIO WRAPPER ---
